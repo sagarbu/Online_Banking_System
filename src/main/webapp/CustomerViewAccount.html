@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer View Account</title>
+<style type="text/css">
+               
+            body
+            {       
+                  background-image: url("bgimage.jpg");
+                  background-repeat: no-repeat;
+                  background-size: cover;
+            }
+            
+            a
+             {
+             color:darkblue;
+             text-decoration:none;
+             font-family:arial;
+             }	
+             
+             form
+             {  
+              
+               margin:40px 600px;
+               border-radius:20px;
+               width:300px;
+               height:300px;
+               background-color: rgba(41,39,39,0.2);
+               box-shadow: 0 5px 30px black;
+               justify-content:center;
+               display:flex; 
+               flex-direction: column;
+               align-items:center;
+             } 
+             
+             input
+             {
+             background-color: whitesmoke;
+             border-color: black;
+             
+             }
+             
+             label
+             { 
+                color: darkblue;
+                font-family:arial;
+                font-weight:bold;
+                
+             }
+               
+		
+</style>
+</head>
+<body>
+<form action="viewcustomer" method="post"> 
+     
+ <a href="CustomerMenu.html"><span style="color:white">Back</span></a><br><br>	
+  
+ <label>AccountNo:</label>
+ <input type="text" name="acn" required><br><br>
+ <input type="submit" value="Submit" style="background-color:darkblue; width:100px; height:30px; color:white; font-weight: bold;">
+ </form>
+
+</body>
+</html>

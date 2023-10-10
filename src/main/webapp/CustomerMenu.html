@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer Menu</title>
+<style type="text/css">
+               
+            body
+            {       
+                  background-image: url("bgimage.jpg");
+                  background-repeat: no-repeat;
+                  background-size: cover;
+            }
+            
+            a
+             {
+                 color:darkblue;
+                 text-decoration:none;
+                 font-family:arial;
+             
+             }	
+             
+             form
+             {  
+              
+               margin:40px 600px;
+               border-radius:20px;
+               width:300px;
+               height:350px;
+               background-color: rgba(41,39,39,0.2);
+               box-shadow: 0 5px 30px black;
+               justify-content:center;
+               display:flex; 
+               flex-direction: column;
+               align-items:center;
+             } 
+             
+             input
+             {
+             background-color: whitesmoke;
+             border-color: black;
+             
+             }
+             
+             label
+             { 
+                color: darkblue;
+                font-family:arial;
+                font-weight:bold;
+                
+             }
+               
+		
+</style>
+</head>
+<body>
+<form action="savecustomer" method="post"> 
+     
+ <a href="CustomerHomePage.html"><span style="color:white">Back</span></a>
+ <h2 align="center" style="color:darkred;  font-weight: bold;  font-family:verdana;" >Select </h2>
+  <ul>
+  <li><a href="CustomerWithdraw.html">Withdraw</a></li><br> 
+  <li><a  href="CustomerDeposit.html">Deposit</a></li><br>
+  <li><a  href="CustomerPasswordChange.html">Change Password</a></li><br> 
+  <li><a  href="CustomerViewAccount.html">View Account </a></li><br> 
+  <li><a  href="CustomerEditAccount.html">Edit Account</a></li>
+  </ul>
+  
+ </form>
+
+</body>
+</html>
